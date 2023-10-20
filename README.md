@@ -1,37 +1,16 @@
-# Template project Python Data Science using poetry
+# Automatic basic video editing 
 
-install poetry [here](https://python-poetry.org/docs/#installing-with-the-official-installer)
+# convert mov video to mp4
 
+convert.sh is an experimental script that given a video convert it in mp4 using different bitrates and resolutions.
 
-## create the virtual environment and install the dependencies
+# speed up 
 
-```bash
-poetry install
+given a video you can increase the speed to get the video of a desired lenght
+ usage: 
+
+```
+speed.sh  video.mp4 1
 ```
 
-## activate the virtual environment
-
-```bash
-poetry shell
-```
-
-now you created an isolated enviroment, everything you install will not affect your system python installation, you can experiment freely and delete the .venv folder to start over. 
-
-
-## install a new package
-
-```bash
-poetry add <package_name>
-```
-what you usually do with ```pip install pandas``` is now ```poetry add pandas```
-
-## using .env file
-
-if you have to handle sensitive data put it in the ```.env ```file, it will be ignored by git and you can access it with ```os.getenv('VARIABLE_NAME')```
-
-
-## suggestion 
-open the folder with vscode and you should see 
-```#%%``` lines, these are the cell division, you can run a cell with ```shift+enter``` or pressing the play button on the left of the cell.
-
-
+ creates a video of 1 minute lenght 

@@ -2,7 +2,10 @@
 
 # convert mov video to mp4
 
-convert.sh is an experimental script that given a video convert it in mp4 using different bitrates and resolutions.
+```
+convert.sh parta_biliardo.mov 1M 1920x1080
+```
+converts the video to mp4 with a bitrate of 1M and a resolution of 1920x1080
 
 # speed up 
 
